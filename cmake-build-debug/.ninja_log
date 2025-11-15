@@ -1,0 +1,8 @@
+# ninja log v6
+4	117	7849194753269233	CMakeFiles/Satelite_Tracker.dir/main.c.obj	37aca96e02a23743
+21	224	7849194296658315	CMakeFiles/Satelite_Tracker.dir/ascii.c.obj	3d20714d06ea4119
+6	522	7849197594786016	build.ninja	d3736837cb60afc2
+6	522	7849197594726010	C:/Users/Miro/CLionProjects/Satelite-Tracker/cmake-build-debug/cmake_install.cmake	d3736837cb60afc2
+125	313	7849194754476599	Satelite_Tracker.exe	a5b547e3a527c666
+13	341	7849199643056871	CMakeFiles/Satelite_Tracker.dir/main.c.obj	37aca96e02a23743
+343	738	7849199646343486	Satelite_Tracker.exe	a5b547e3a527c666

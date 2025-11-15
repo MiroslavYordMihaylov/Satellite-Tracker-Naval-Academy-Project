@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Satelite_Tracker.dir/main.c.o -o Satelite_Tracker 
