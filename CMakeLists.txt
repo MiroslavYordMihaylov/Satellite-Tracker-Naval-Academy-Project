@@ -12,6 +12,13 @@ add_executable(SatelliteTracker
         src/main.cpp
         src/main.h
         main.c
+        ascii.c
+        ascii.h
+        directory_options.c
+        directory_options.h
+        new_orbiter.c
+        new_orbiter.h
+        main.h
 )
 
 target_include_directories(SatelliteTracker PRIVATE ${PREDICT_INCLUDE_DIRS})
