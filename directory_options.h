@@ -15,6 +15,6 @@ int main_menu_options();
 int open_option();
 int delete_option();
 int options();
-int predict();
+int new_orbiter();
 
 #endif //SATELLITETRACKER_NEW_ORBITER_H

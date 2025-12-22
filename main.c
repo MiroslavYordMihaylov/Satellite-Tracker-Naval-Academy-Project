@@ -11,7 +11,6 @@ int main_menu_options() {
         case 1:
             menu_case1();
             case1();
-
             break;
         case 2:
             list_dir();

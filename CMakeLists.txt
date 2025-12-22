@@ -16,9 +16,9 @@ add_executable(SatelliteTracker
         ascii.h
         directory_options.c
         directory_options.h
-        new_orbiter.c
-        new_orbiter.h
         main.h
+        sql.c
+        sqlite3.h
 )
 
 target_include_directories(SatelliteTracker PRIVATE ${PREDICT_INCLUDE_DIRS})
