@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Miro/CLionProjects/Satelite-Tracker/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Satelite_Tracker.dir/all
+all: CMakeFiles/SatelliteTracker.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Satelite_Tracker.dir/clean
+clean: CMakeFiles/SatelliteTracker.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Satelite_Tracker.dir
+# Target rules for target CMakeFiles/SatelliteTracker.dir
 
 # All Build rule for target.
-CMakeFiles/Satelite_Tracker.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Satelite_Tracker.dir/build.make CMakeFiles/Satelite_Tracker.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Satelite_Tracker.dir/build.make CMakeFiles/Satelite_Tracker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Miro/CLionProjects/Satelite-Tracker/build/CMakeFiles --progress-num=1,2 "Built target Satelite_Tracker"
-.PHONY : CMakeFiles/Satelite_Tracker.dir/all
+CMakeFiles/SatelliteTracker.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/Miro/CLionProjects/Satelite-Tracker/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target SatelliteTracker"
+.PHONY : CMakeFiles/SatelliteTracker.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Satelite_Tracker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Miro/CLionProjects/Satelite-Tracker/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Satelite_Tracker.dir/all
+CMakeFiles/SatelliteTracker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Miro/CLionProjects/Satelite-Tracker/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SatelliteTracker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Miro/CLionProjects/Satelite-Tracker/build/CMakeFiles 0
-.PHONY : CMakeFiles/Satelite_Tracker.dir/rule
+.PHONY : CMakeFiles/SatelliteTracker.dir/rule
 
 # Convenience name for target.
-Satelite_Tracker: CMakeFiles/Satelite_Tracker.dir/rule
-.PHONY : Satelite_Tracker
+SatelliteTracker: CMakeFiles/SatelliteTracker.dir/rule
+.PHONY : SatelliteTracker
 
 # clean rule for target.
-CMakeFiles/Satelite_Tracker.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Satelite_Tracker.dir/build.make CMakeFiles/Satelite_Tracker.dir/clean
-.PHONY : CMakeFiles/Satelite_Tracker.dir/clean
+CMakeFiles/SatelliteTracker.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/clean
+.PHONY : CMakeFiles/SatelliteTracker.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

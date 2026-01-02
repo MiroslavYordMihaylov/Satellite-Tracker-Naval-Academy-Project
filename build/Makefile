@@ -117,24 +117,72 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Satelite_Tracker
+# Target rules for targets named SatelliteTracker
 
 # Build rule for target.
-Satelite_Tracker: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Satelite_Tracker
-.PHONY : Satelite_Tracker
+SatelliteTracker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SatelliteTracker
+.PHONY : SatelliteTracker
 
 # fast build rule for target.
-Satelite_Tracker/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Satelite_Tracker.dir/build.make CMakeFiles/Satelite_Tracker.dir/build
-.PHONY : Satelite_Tracker/fast
+SatelliteTracker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/build
+.PHONY : SatelliteTracker/fast
+
+ascii.o: ascii.c.o
+.PHONY : ascii.o
+
+# target to build an object file
+ascii.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/ascii.c.o
+.PHONY : ascii.c.o
+
+ascii.i: ascii.c.i
+.PHONY : ascii.i
+
+# target to preprocess a source file
+ascii.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/ascii.c.i
+.PHONY : ascii.c.i
+
+ascii.s: ascii.c.s
+.PHONY : ascii.s
+
+# target to generate assembly for a file
+ascii.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/ascii.c.s
+.PHONY : ascii.c.s
+
+directory_options.o: directory_options.c.o
+.PHONY : directory_options.o
+
+# target to build an object file
+directory_options.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/directory_options.c.o
+.PHONY : directory_options.c.o
+
+directory_options.i: directory_options.c.i
+.PHONY : directory_options.i
+
+# target to preprocess a source file
+directory_options.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/directory_options.c.i
+.PHONY : directory_options.c.i
+
+directory_options.s: directory_options.c.s
+.PHONY : directory_options.s
+
+# target to generate assembly for a file
+directory_options.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/directory_options.c.s
+.PHONY : directory_options.c.s
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Satelite_Tracker.dir/build.make CMakeFiles/Satelite_Tracker.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -142,7 +190,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Satelite_Tracker.dir/build.make CMakeFiles/Satelite_Tracker.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -150,8 +198,32 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Satelite_Tracker.dir/build.make CMakeFiles/Satelite_Tracker.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/main.c.s
 .PHONY : main.c.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SatelliteTracker.dir/build.make CMakeFiles/SatelliteTracker.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +233,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Satelite_Tracker"
+	@echo "... SatelliteTracker"
+	@echo "... ascii.o"
+	@echo "... ascii.i"
+	@echo "... ascii.s"
+	@echo "... directory_options.o"
+	@echo "... directory_options.i"
+	@echo "... directory_options.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

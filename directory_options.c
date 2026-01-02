@@ -16,21 +16,20 @@ char *retptr[100];
 char *tle_line_1;
 char *tle_line_2;
 
-void case1() {
+void new_orbiter_options() {
     char validate;
 
     printf("New orbiter?\nY/N:\n");
     scanf(" %c", &validate);
 
     if (validate == 'y' || validate == 'Y') {
-        // predict();
         appendTo();
     } else if (validate == 'n' || validate == 'N') {
         main_menu();
         main_menu_options();
     } else {
         printf("Invalid option");
-        case1();
+        new_orbiter_options();
     }
 }
 
@@ -48,7 +47,7 @@ int get_dir() {
         return 1;
     }
 
-    printf("Current working directory: \n\n%s\n", retptr);
+    // printf("Current working directory: \n\n%s\n", retptr);
 
     // Important: we need to free the dynamically allocated memory in the case
     // that _getcwd() was passed NULL as a first argument and dynamically
@@ -63,14 +62,16 @@ char dir_name[100] = "my-orbiters";
 
 char buffer[MAX_LINE];
 char file_path[256];
+char filename[100];
 
 //Creating a new directory where the text files are created and stored
 int appendTo() {
     char data[MAX_LINE][MAX_LEN];
     char directory[PATH_MAX];
-    char filename[100];
+
 
     snprintf(directory, sizeof(directory), "%s/%s", retptr, dir_name);
+    mkdir(directory, S_IRWXU | S_IRWXG | S_IRWXO);
     mkdir(directory, S_IRWXU | S_IRWXG | S_IRWXO);
 
     get_dir();
@@ -82,7 +83,7 @@ int appendTo() {
 
 
     snprintf(file_path, sizeof(file_path), "%s/%s", dir_name, filename);
-    file = fopen(file_path, "a");
+    file = fopen(file_path, "w");
 
     if (file == NULL) {
         printf("Error opening file.\n");
@@ -119,7 +120,6 @@ int appendTo() {
         if (fgets(data[line], MAX_LEN, file) != NULL) {
             line++;
         }
-
 
     fclose(file);
 
@@ -178,7 +178,7 @@ int options() {
 
     switch (option) {
         case 1:
-            case1();
+            new_orbiter_options();
             break;
         case 2:
             open_option();
@@ -208,18 +208,17 @@ int delete_option() {
     scanf(" %c", &validate);
 
     if (validate == 'y' || validate == 'Y') {
-            snprintf(file_path, sizeof(file_path), "%s/%s", dir_name, filename);
-            if (remove(file_path) != 0) {
-                // if there was an error, output the error number and message
-                fprintf(stderr, "Errno: %d\n", errno);
-                perror("Error msg");
+        snprintf(file_path, sizeof(file_path), "%s/%s", dir_name, filename);
+        if (remove(file_path) != 0) {
+            // if there was an error, output the error number and message
+            fprintf(stderr, "Errno: %d\n", errno);
+            perror("Error msg");
 
-                // if to delete was successful, inform the user the file was deleted
-            } else printf("%s deleted.\n", filename);
-            main_menu();
-            main_menu_options();
-
-    }else if (validate == 'n' || validate == 'N') {
+            // if to delete was successful, inform the user the file was deleted
+        } else printf("%s deleted.\n", filename);
+        main_menu();
+        main_menu_options();
+    } else if (validate == 'n' || validate == 'N') {
         open_option();
     } else {
         printf("Invalid option");
@@ -228,9 +227,9 @@ int delete_option() {
     return 0;
 }
 
+
 int open_option() {
     char data[MAX_LINE][MAX_LEN];
-    char filename[100];
 
     printf("Enter the name of the orbiter you would like to open: ");
     scanf("%99s", filename);
@@ -269,12 +268,13 @@ int open_option() {
     tle_line_1 = data[0];
     tle_line_2 = data[1];
 
+
     new_orbiter();
     return 0;
 }
 
+
 int new_orbiter() {
-    char filename[100];
     // Create orbit object
     predict_orbital_elements_t *iss = predict_parse_tle(tle_line_1, tle_line_2);
     if (!iss) {
@@ -311,24 +311,20 @@ int new_orbiter() {
         double apparent_elevation = predict_apparent_elevation(iss_obs.elevation);
         printf("Apparent elevation: %.2f\n\n", apparent_elevation * 180.0 / M_PI);
 
-        // Predict and observe MOON
-        // struct predict_observation moon_obs;
-        // predict_observe_moon(obs, curr_time, &moon_obs);
-        // printf("MOON: %f, %f\n", moon_obs.azimuth*180.0/M_PI, moon_obs.elevation*180.0/M_PI);
-        //
-        // // Predict and observe SUN
-        // struct predict_observation sun_obs;
-        // predict_observe_sun(obs, curr_time, &sun_obs);
-        // printf("SUN: %f, %f\n", sun_obs.azimuth*180.0/M_PI, sun_obs.elevation*180.0/M_PI);
-
         //Sleep
         fflush(stdout);
         usleep(1000000);
     }
 
+
     // Free memory
     predict_destroy_orbital_elements(iss);
     predict_destroy_observer(obs);
 
+    main_menu_options();
+    main_menu();
+
     return 0;
 }
+
+

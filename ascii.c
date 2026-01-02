@@ -14,15 +14,12 @@ void main_menu(void) {
 
 
     printf("%s", banner);
-    printf("Welcome to the SATELITE TRACKING SYSTEM. A terminal app which allows you to track the location of any orbiter\n");
+    printf("Welcome to the SATELITE TRACKING SYSTEM. A terminal app which allows you to track the location of any orbiter in Earth's atmosphere\n");
     printf("\n");
     printf("                                        1. TRACK AN ORBITER\n");
     printf("                                        2.   MY SATELITES\n");
     printf("                                        3.      HELP\n");
     printf("                                        4.      EXIT\n");
-
-
-
 }
 
 void menu_case1(void) {
@@ -35,4 +32,3 @@ void menu_case1(void) {
     printf("%s", banner);
 
 }
-
