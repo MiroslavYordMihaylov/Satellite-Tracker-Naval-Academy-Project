@@ -84,7 +84,6 @@ int create_option() {
     //consumes the first empty line at the start of the file
     getchar();
 
-    // Use directory path (not just dir_name) for file creation
     snprintf(file_path, sizeof(file_path), "%s/%s", directory, filename);
     file = fopen(file_path, "w");
 
@@ -156,9 +155,7 @@ int create_option() {
         printf("Invalid option");
         snprintf(file_path, sizeof(file_path), "%s/%s/%s", cwd, dir_name, filename);
         if (remove(file_path) != 0) {
-            // if there was an error, output the error number and message
-            fprintf(stderr, "Errno: %d\n", errno);
-            perror("Error msg");
+            perror("");
         }
     }
     //Return to the main menu once you are done
