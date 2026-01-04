@@ -17,10 +17,7 @@ add_executable(SatelliteTracker
         directory_options.c
         directory_options.h
         main.h
-        sql.c
-        sql.h
 )
 
 target_include_directories(SatelliteTracker PRIVATE ${PREDICT_INCLUDE_DIRS})
 target_link_libraries(SatelliteTracker PRIVATE ${PREDICT_LIBRARIES})
-

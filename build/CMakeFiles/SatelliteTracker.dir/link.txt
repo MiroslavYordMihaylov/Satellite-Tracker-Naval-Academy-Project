@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SatelliteTracker.dir/src/main.cpp.o CMakeFiles/SatelliteTracker.dir/main.c.o CMakeFiles/SatelliteTracker.dir/ascii.c.o CMakeFiles/SatelliteTracker.dir/directory_options.c.o -o SatelliteTracker  -lpredict 

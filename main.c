@@ -15,11 +15,16 @@ int main_menu_options() {
             list_dir();
             break;
         case 3:
-            printf("See you soon :)");
+            printf("See you soon :)\n");
+            return 1;
             break;
         default:
-            printf("Invalid option");
+            printf("Invalid option\n");
+
+            main_menu();
+            main_menu_options();
     }
+    return 0;
 }
 
 int main(void) {
@@ -28,5 +33,3 @@ int main(void) {
 
     return 0;
 }
-
-

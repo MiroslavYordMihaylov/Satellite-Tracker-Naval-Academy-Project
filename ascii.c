@@ -18,8 +18,7 @@ void main_menu(void) {
     printf("\n");
     printf("                                        1. TRACK AN ORBITER\n");
     printf("                                        2.   MY SATELITES\n");
-    printf("                                        3.      HELP\n");
-    printf("                                        4.      EXIT\n");
+    printf("                                        3.      EXIT\n");
 }
 
 void menu_case1(void) {

@@ -8,4 +8,5 @@ int list_dir();
 int main_menu();
 void help_case3();
 int help_option();
+int sqlite3_connector();
 #endif //SATELLITETRACKER_MAIN_H
