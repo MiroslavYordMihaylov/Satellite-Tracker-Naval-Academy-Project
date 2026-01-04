@@ -6,7 +6,7 @@ External Libraries:
 - [libpredict](<https://github.com/la1k/libpredict>)
 
 Build System:
-   -CMake (v3.28)
+- CMake (v3.28)
 
 ## What the it offers:
 When you start the program, you'll see a main menu with these options:
@@ -109,7 +109,6 @@ Apparent elevation: 25.45
 - **Observer location is FIXED** at approximately Oslo, Norway (63.9°N, 10.9°E)
 - **TLE data must be current** for accurate tracking (TLEs expire after ~2 weeks)
 - **The program updates every second** when tracking a satellite
-- 
 ------------------------------------------------------------------------------------------------------------------
 
 ## Where is data saved?
