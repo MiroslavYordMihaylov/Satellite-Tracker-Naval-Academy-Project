@@ -118,3 +118,8 @@ All satellites are saved in a folder called `my-orbiters` in your current direct
 Each satellite is saved as a separate file with its name containing the TLE data.
 
 ------------------------------------------------------------------------------------------------------------------
+
+## Future of the project?
+- Database integration
+- Account feature (Different accounts will be able to store different satellites)
+- GUI
