@@ -6,7 +6,7 @@ External Libraries:
 - [libpredict](<https://github.com/la1k/libpredict>)
 
 Build System:
--CMake (v3.28)
+   -CMake (v3.28)
 
 ## What the it offers:
 When you start the program, you'll see a main menu with these options:
