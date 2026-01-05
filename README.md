@@ -8,7 +8,7 @@ External Libraries:
 Build System:
 - CMake (v3.28)
 
-## What the it offers:
+## What it offers:
 When you start the program, you'll see a main menu with these options:
 
 ```
