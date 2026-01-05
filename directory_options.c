@@ -128,7 +128,7 @@ int create_option() {
     // the file, as indicated by 'line' which lets us know how many lines we've
     // read from the file.
 
-    printf("Full TLE:");
+    printf("Full TLE:\n");
     for (int i = 0; i < line; i++) {
         printf("%s", data[i]);
     }
