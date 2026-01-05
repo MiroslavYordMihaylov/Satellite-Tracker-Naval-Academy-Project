@@ -234,6 +234,7 @@ int delete_option() {
             perror("Error deleting file");
         } else {
             printf("%s deleted.\n", filename);
+            list_dir();
         }
     } else if (validate == 'n' || validate == 'N') {
         open_option();
