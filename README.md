@@ -17,7 +17,7 @@ When you start the program, you'll see a main menu with these options:
 3. EXIT
 ```
 
-Enter a number (1-4) and press ENTER to select an option.
+Enter a number (1-3) and press ENTER to select an option.
 
 ------------------------------------------------------------------------------------------------------------------
 
