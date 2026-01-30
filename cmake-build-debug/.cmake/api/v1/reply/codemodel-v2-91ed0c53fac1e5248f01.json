@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libpredict",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpredict-Debug-75c6faf2c1a79a91c333.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libpredict"
+				},
+				{
+					"build" : "libpredict/include",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-libpredict.include-Debug-10001324544886b548ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libpredict/include"
+				},
+				{
+					"build" : "libpredict/include/predict",
+					"jsonFile" : "directory-libpredict.include.predict-Debug-5c9afd639d65d3ca91bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "libpredict/include/predict"
+				},
+				{
+					"build" : "libpredict/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpredict.src-Debug-3e4016f5b31e3452f42a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libpredict/src",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "libpredict/travis",
+					"jsonFile" : "directory-libpredict.travis-Debug-0acf57aba8ac4089fd8f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libpredict/travis"
+				},
+				{
+					"build" : "libpredict/tests",
+					"jsonFile" : "directory-libpredict.tests-Debug-c2f6b9bece1a2e668dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libpredict/tests",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SatelliteTracker",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "libpredict",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SatelliteTracker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SatelliteTracker-Debug-6347686d7b127246f2fc.json",
+					"name" : "SatelliteTracker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "aoslos-t::@8279e8574a51a3ba87a2",
+					"jsonFile" : "target-aoslos-t-Debug-d2c260e50cf7f53de5e7.json",
+					"name" : "aoslos-t",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "dummy-t::@8279e8574a51a3ba87a2",
+					"jsonFile" : "target-dummy-t-Debug-e65de81db46efdcd835c.json",
+					"name" : "dummy-t",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "geostationary-t::@8279e8574a51a3ba87a2",
+					"jsonFile" : "target-geostationary-t-Debug-3db675c13b61dfd3fd5e.json",
+					"name" : "geostationary-t",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "link-t::@8279e8574a51a3ba87a2",
+					"jsonFile" : "target-link-t-Debug-6d723d5c3f264e556a7b.json",
+					"name" : "link-t",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "maxelevation-t::@8279e8574a51a3ba87a2",
+					"jsonFile" : "target-maxelevation-t-Debug-04ff992dc0c4758b9e9e.json",
+					"name" : "maxelevation-t",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "moon-t::@8279e8574a51a3ba87a2",
+					"jsonFile" : "target-moon-t-Debug-e8c937cbab23d3f49c12.json",
+					"name" : "moon-t",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "orbit-t::@8279e8574a51a3ba87a2",
+					"jsonFile" : "target-orbit-t-Debug-12aa333ffc120a5d2705.json",
+					"name" : "orbit-t",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "predict::@48e1d74c652c7688187e",
+					"jsonFile" : "target-predict-Debug-5a1f0b1b70956eeb5caa.json",
+					"name" : "predict",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "predict_static::@48e1d74c652c7688187e",
+					"jsonFile" : "target-predict_static-Debug-dabaeaa9bbcff2fc9243.json",
+					"name" : "predict_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sun-t::@8279e8574a51a3ba87a2",
+					"jsonFile" : "target-sun-t-Debug-24623e6db393e8ab93a9.json",
+					"name" : "sun-t",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug",
+		"source" : "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

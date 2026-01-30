@@ -1,0 +1,218 @@
+[
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src -g -fdiagnostics-color=always -o CMakeFiles/SatelliteTracker.dir/main.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/main.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/main.c",
+  "output": "CMakeFiles/SatelliteTracker.dir/main.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src -g -fdiagnostics-color=always -o CMakeFiles/SatelliteTracker.dir/ascii.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/ascii.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/ascii.c",
+  "output": "CMakeFiles/SatelliteTracker.dir/ascii.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src -g -fdiagnostics-color=always -o CMakeFiles/SatelliteTracker.dir/directory_options.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/directory_options.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/directory_options.c",
+  "output": "CMakeFiles/SatelliteTracker.dir/directory_options.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/orbit.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/orbit.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/orbit.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/orbit.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/sun.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sun.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sun.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/sun.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/observer.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/observer.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/observer.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/observer.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/sdp4.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sdp4.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sdp4.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/sdp4.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/sgp4.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sgp4.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sgp4.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/sgp4.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/refraction.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/refraction.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/refraction.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/refraction.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/unsorted.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/unsorted.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/unsorted.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/unsorted.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/julian_date.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/julian_date.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/julian_date.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/julian_date.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/version.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/version.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/version.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/version.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -Dpredict_EXPORTS -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fPIC -fdiagnostics-color=always -o CMakeFiles/predict.dir/moon.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/moon.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/moon.c",
+  "output": "libpredict/src/CMakeFiles/predict.dir/moon.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/orbit.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/orbit.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/orbit.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/orbit.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/sun.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sun.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sun.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/sun.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/observer.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/observer.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/observer.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/observer.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/sdp4.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sdp4.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sdp4.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/sdp4.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/sgp4.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sgp4.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/sgp4.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/sgp4.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/refraction.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/refraction.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/refraction.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/refraction.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/unsorted.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/unsorted.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/unsorted.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/unsorted.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/julian_date.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/julian_date.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/julian_date.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/julian_date.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/predict_static.dir/moon.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/moon.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/src/moon.c",
+  "output": "libpredict/src/CMakeFiles/predict_static.dir/moon.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/dummy-t.dir/dummy-t.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/dummy-t.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/dummy-t.c",
+  "output": "libpredict/tests/CMakeFiles/dummy-t.dir/dummy-t.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -g -fdiagnostics-color=always -o CMakeFiles/link-t.dir/link-t.c.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/link-t.c",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/link-t.c",
+  "output": "libpredict/tests/CMakeFiles/link-t.dir/link-t.c.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/orbit-t.dir/orbit-t.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/orbit-t.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/orbit-t.cpp",
+  "output": "libpredict/tests/CMakeFiles/orbit-t.dir/orbit-t.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/orbit-t.dir/testcase_reader.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "output": "libpredict/tests/CMakeFiles/orbit-t.dir/testcase_reader.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/aoslos-t.dir/aoslos-t.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/aoslos-t.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/aoslos-t.cpp",
+  "output": "libpredict/tests/CMakeFiles/aoslos-t.dir/aoslos-t.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/aoslos-t.dir/testcase_reader.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "output": "libpredict/tests/CMakeFiles/aoslos-t.dir/testcase_reader.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/sun-t.dir/sun-t.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/sun-t.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/sun-t.cpp",
+  "output": "libpredict/tests/CMakeFiles/sun-t.dir/sun-t.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/sun-t.dir/testcase_reader.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "output": "libpredict/tests/CMakeFiles/sun-t.dir/testcase_reader.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/moon-t.dir/moon-t.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/moon-t.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/moon-t.cpp",
+  "output": "libpredict/tests/CMakeFiles/moon-t.dir/moon-t.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/moon-t.dir/testcase_reader.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "output": "libpredict/tests/CMakeFiles/moon-t.dir/testcase_reader.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/maxelevation-t.dir/maxelevation-t.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/maxelevation-t.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/maxelevation-t.cpp",
+  "output": "libpredict/tests/CMakeFiles/maxelevation-t.dir/maxelevation-t.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/maxelevation-t.dir/testcase_reader.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "output": "libpredict/tests/CMakeFiles/maxelevation-t.dir/testcase_reader.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/geostationary-t.dir/geostationary-t.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/geostationary-t.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/geostationary-t.cpp",
+  "output": "libpredict/tests/CMakeFiles/geostationary-t.dir/geostationary-t.cpp.o"
+},
+{
+  "directory": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/tests",
+  "command": "/usr/bin/c++ -D_XOPEN_SOURCE=700 -I/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/include  -Wall -Werror -Wall -Werror -g -std=gnu++11 -fdiagnostics-color=always -o CMakeFiles/geostationary-t.dir/testcase_reader.cpp.o -c /home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "file": "/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/libpredict/tests/testcase_reader.cpp",
+  "output": "libpredict/tests/CMakeFiles/geostationary-t.dir/testcase_reader.cpp.o"
+}
+]

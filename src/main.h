@@ -1,8 +1,0 @@
-#ifndef SATELITE_TRACKER_MAIN_H
-#define SATELITE_TRACKER_MAIN_H
-
-class main {
-};
-
-
-#endif //SATELITE_TRACKER_MAIN_H

@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/SatelliteTracker.dir/link.d CMakeFiles/SatelliteTracker.dir/main.c.o CMakeFiles/SatelliteTracker.dir/ascii.c.o CMakeFiles/SatelliteTracker.dir/directory_options.c.o -o SatelliteTracker  -Wl,-rpath,/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src libpredict/src/libpredict.so.3.0.0 -lm

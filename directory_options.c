@@ -5,7 +5,7 @@
 #include <errno.h>
 #include <stdlib.h>
 #include "unistd.h"
-#include <predict/predict.h>
+#include "libpredict/include/predict/predict.h.in"
 #include <dirent.h>
 #include <math.h>
 

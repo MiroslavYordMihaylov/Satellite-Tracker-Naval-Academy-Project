@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Werror -g -Wl,--dependency-file=CMakeFiles/dummy-t.dir/link.d "CMakeFiles/dummy-t.dir/dummy-t.c.o" -o dummy-t   -L/home/miro/CLionProjects/Satellite-Tracker-Naval-Academy-Project/cmake-build-debug/libpredict/src

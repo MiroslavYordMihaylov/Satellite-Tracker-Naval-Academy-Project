@@ -1,0 +1,98 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libpredict/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libpredict/src/libpredict.so.3.0.0",
+				"libpredict/src/libpredict.so.3"
+			],
+			"targetId" : "predict::@48e1d74c652c7688187e",
+			"targetIndex" : 8,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libpredict/src/libpredict.so"
+			],
+			"targetId" : "predict::@48e1d74c652c7688187e",
+			"targetIndex" : 8,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/predict",
+			"paths" : 
+			[
+				"cmake-build-debug/libpredict/include/predict/predict.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libpredict/src/libpredict.a"
+			],
+			"targetId" : "predict_static::@48e1d74c652c7688187e",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/libpredict/src/predict.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libpredict/src",
+		"source" : "libpredict/src"
+	}
+}
